@@ -5,7 +5,7 @@ export const Contactus = () => {
     <>
       <div className="contactus bg-gray-100">
         <div className="section-title-list mt-[50px] ">
-          <div className="section-title w-[400px] h-[80px] pt-4 border-b-2 border-stone-300 m-auto text-center text-3xl font-bold ">
+          <div className="section-title w-[440px] h-[80px] pt-4 border-b-2 border-stone-300 m-auto text-center text-3xl font-bold ">
             <h2>NEED HELP? CONTACT US</h2>
           </div>
           <div className="section-subtitle bg-gray-100 w-[50px] m-auto mt-[-15px]">
@@ -28,7 +28,7 @@ export const Contactus = () => {
               </div>
             </div>
           </container-map>
-          {/* Divs containing map and contact us form */}
+          {/* Divs containing contact us form */}
           <container-form>
             <div className="contact-form bg-white p-4 m-[30px] rounded shadow-2xl">
               <form class="space-y-4 text-gray-700 px-6">

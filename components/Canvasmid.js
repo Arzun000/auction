@@ -1,5 +1,4 @@
 import React from "react";
-//import styles from "./canvasmid.module.css";
 
 export const Canvasmid = () => {
   return (
@@ -24,13 +23,13 @@ export const Canvasmid = () => {
       </canvasmid>
       {/* list of latest auction items */}
       <canvasmidcards>
-        <div className="canvas-cards">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 p-5 pb-6">
+        <div className="canvas-cards ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[65px] md:gap-4 lg:gap-4 p-5 pb-6">
             {/* Item 1 */}
-            <div className="h-[250px] w-150">
+            <div className="h-[250px] transition duration-500 hover:scale-105">
               <div className="image-texts h-[30px] w-[30px]  ml-6 absolute ">
-                <div className="bid-now-icon rounded-full hover:bg-orange-500 mt-[2px]">
-                  <button className="inline-flex m-auto focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/hammer.png"
                       height={30}
@@ -38,8 +37,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="heart-icon rounded-full hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/heart.png"
                       height={30}
@@ -47,8 +46,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="search-icon rounded-full  hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/search.png"
                       height={30}
@@ -57,8 +56,9 @@ export const Canvasmid = () => {
                   </button>
                 </div>
               </div>
+
               <img
-                className="object-fill h-full w-full"
+                className="object-fill h-full w-full "
                 src="/images/car1.jpg"
               ></img>
               <div className="image-caption text-center bg-gray-100">
@@ -71,10 +71,10 @@ export const Canvasmid = () => {
               </div>
             </div>
             {/* item 2 */}
-            <div className="h-[250px] bg-blue-200 w-150">
+            <div className="h-[250px] transition duration-500 hover:scale-105">
               <div className="image-texts h-[30px] w-[30px]  ml-6 absolute ">
-                <div className="bid-now-icon rounded-full hover:bg-orange-500 mt-[2px]">
-                  <button className="inline-flex m-auto focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/hammer.png"
                       height={30}
@@ -82,8 +82,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="heart-icon rounded-full hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/heart.png"
                       height={30}
@@ -91,8 +91,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="search-icon rounded-full  hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/search.png"
                       height={30}
@@ -102,7 +102,7 @@ export const Canvasmid = () => {
                 </div>
               </div>
               <img
-                className="object-fill h-full w-full"
+                className="object-fill h-full w-full "
                 src="/images/car2.jpg"
               ></img>
               <div className="image-caption text-center  bg-gray-100">
@@ -115,10 +115,10 @@ export const Canvasmid = () => {
               </div>
             </div>
             {/* item 3 */}
-            <div className="h-[250px] bg-blue-200 w-150">
+            <div className="h-[250px] transition duration-500 hover:scale-105">
               <div className="image-texts h-[30px] w-[30px]  ml-6 absolute ">
-                <div className="bid-now-icon rounded-full hover:bg-orange-500 mt-[2px]">
-                  <button className="inline-flex m-auto focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/hammer.png"
                       height={30}
@@ -126,8 +126,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="heart-icon rounded-full hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/heart.png"
                       height={30}
@@ -135,8 +135,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="search-icon rounded-full  hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/search.png"
                       height={30}
@@ -159,10 +159,10 @@ export const Canvasmid = () => {
               </div>
             </div>
             {/* item 4 */}
-            <div className="h-[250px] w-150">
+            <div className="h-[250px] transition duration-500 hover:scale-105">
               <div className="image-texts h-[30px] w-[30px]  ml-6 absolute ">
-                <div className="bid-now-icon rounded-full hover:bg-orange-500 mt-[2px]">
-                  <button className="inline-flex m-auto focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/hammer.png"
                       height={30}
@@ -170,8 +170,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="heart-icon rounded-full hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/heart.png"
                       height={30}
@@ -179,8 +179,8 @@ export const Canvasmid = () => {
                     ></img>
                   </button>
                 </div>
-                <div className="search-icon rounded-full  hover:bg-orange-500">
-                  <button className="inline-flex items-center focus:outline-none text-base md:mt-2">
+                <div className="bid-now-icon rounded-full mt-[2px]">
+                  <button className="inline-flex m-auto focus:outline-none hover:bg-orange-500 rounded-full text-base md:mt-2">
                     <img
                       src="/static/icons/search.png"
                       height={30}

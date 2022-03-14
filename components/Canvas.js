@@ -6,28 +6,30 @@ export const Canvas = () => {
       <canvas-top>
         <div className="canv-top-container">
           <img src="/images/automotive_slider.jpg"></img>
-          <div className="canv-container absolute top-[25rem] left-[5rem] flex  h-[16rem] w-[30rem] ">
-            <div className="canv-content ">
+          <div className="canv-container absolute mt-[-240px] ml-[-60px] lg:mt-[-550px] lg:ml-[0] left-[5rem] flex  h-[16rem] w-[30rem] ">
+            <div className="canv-content">
               <div className="main-content-title ">
-                <p className="font-serif text-[42px]">Find your dream car</p>
+                <p className="font-sans-serif text-[36px] md:text-[42px]">
+                  Find your dream car
+                </p>
               </div>
               <div className="main-content-subtitle">
-                <p className="font-sans text-[36px]">& give it a try</p>
+                <p className="font-sans text-[30px] md:text-[36px]">
+                  & give it a try
+                </p>
               </div>
-              <div className="main-content-subtitle mt-2">
-                Vivamus id ligula non turpis aliquam dignissim. Fusce tempor
-                vulputate urna, quis malesuada.
+              <div className="main-content-subtitle truncate mt-2">
+                <p>Vivamus id ligula non turpis aliquam dignissim.</p>
+                <p> Fusce tempor vulputate urna, quis malesuada.</p>
               </div>
-              <button className="inline-flex items-center focus:outline-none text-base md:mt-2 ">
-                <div className="main-content-btn border border-black w-[120px] hover:border-none rounded-lgx ">
-                  <div
-                    className="auc-btn font-medium text-black 
-                    rounded-lgx hover:bg-yellow-500 focus:ring p-2
-                     "
-                  >
-                    View Auctions
-                  </div>
-                </div>
+              <button
+                type="button"
+                className="py-2.5 px-5 my-4 mx-2 text-sm text-grey-800 rounded-full border-[2px] border-grey-800
+           hover:bg-yellow-500 hover:border-yellow-500 hover:text-white font-bold focus:z-10 focus:ring-2 focus:ring-blue-700
+            focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600
+             dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                VIEW AUCTIONS
               </button>
             </div>
           </div>

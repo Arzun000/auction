@@ -2,9 +2,19 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
+  resolve: {
+    extensions: [".jsx", ".js"],
+  },
+  plugins: [require("flowbite/plugin")],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        "sh-search": "rgba(0, 0, 0, 0.2) 0px -10px 30px -10px;",
+        "sh-search1": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;",
+      },
+    },
     borderRadius: {
       none: "0",
       sm: "0.125rem",
@@ -21,5 +31,4 @@ module.exports = {
     "hero-slider": "url('/images/automotive_slider.JPG')",
     // 'footer-texture': "url('/img/footer-texture.png')",
   },
-  plugins: [],
 };

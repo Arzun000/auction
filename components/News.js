@@ -17,7 +17,7 @@ export const News = () => {
             ></img>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-2 gap-2">
           <container-news1>
             <div className="col-span-1 h-auto relative bg-white w-auto">
               <div className="h-[175px] inline-flex">

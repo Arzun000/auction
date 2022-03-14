@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <>
       <footer-search>
-        <div className="footer-search-container grid bg-[#ea7f23] mt-[10px] h-[80px] grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full">
+        <div className="footer-search-container grid bg-[#ea7f23] mt-[10px] h-auto p-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full">
           <div className="footer-cap m-auto">
             <p className="font-serif text-[24px]">
               Browse through our products library!
@@ -37,7 +37,7 @@ export const Footer = () => {
         </div>
       </footer-search>
       <footer-links>
-        <div className="footer-link-container grid bg-[#c5c4c1] mt-[1px] h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full">
+        <div className="footer-link-container grid  mt-[1px] h-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 w-full">
           <div className="contact-info ">
             <div className="container-logo ml-[100px] mt-[20px]">
               <img src="/static/logo-ibid.png" height={150} width={150}></img>
@@ -54,62 +54,96 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="links">
+          <div className="links ">
             <div className="image-caption-two ml-[20px] text-center font-bold p-1">
               Useful links
             </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                Mobile Phone
-              </a>
-            </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                Laptop
-              </a>
-            </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                HeadPhone
-              </a>
+            <div className="links-container text-[#afafaf] mx-[80px] ">
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Mobile Phones</div>
+                </a>
+              </div>
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Laptop</div>
+                </a>
+              </div>
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Head Phones</div>
+                </a>
+              </div>
             </div>
           </div>
           <div className="policy">
             <div className="image-caption-two ml-[20px] text-center font-bold p-1">
               Our Policy
             </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                Home Page
-              </a>
-            </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                Blog
-              </a>
-            </div>
-            <div className="link-one text-l ml-[20px] text-center ">
-              <a
-                href="#"
-                class="no-underline text-[#5a5957] hover:text-[#a19e9b]"
-              >
-                Services
-              </a>
+            <div className="links-container text-[#afafaf] mx-[80px] ">
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Homepage</div>
+                </a>
+              </div>
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Blog</div>
+                </a>
+              </div>
+              <div className="link-one text-l ml-[20px] flex">
+                <div className="">
+                  <img
+                    src="/static/icons/double_right.png"
+                    height={15}
+                    width={15}
+                    className="pt-1"
+                  ></img>
+                </div>
+                <a href="#" class="no-underline  hover:text-[#a19e9b]">
+                  <div className=" ">Services</div>
+                </a>
+              </div>
             </div>
           </div>
           <div className="subscribe p-2">
