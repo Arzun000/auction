@@ -1,0 +1,38 @@
+.card {
+  position: absolute;
+  display: block;
+  margin: 4px 15px 4px 2px;
+  text-align: center;
+  width: auto;
+  z-index: -1;
+}
+
+.cardflip {
+  position: absolute;
+  display: block;
+  margin-top: -50px;
+  margin-left: 20px;
+  visibility: hidden;
+  transition: transform 1s;
+  transform-origin: left;
+  z-index: 0;
+  width: auto;
+  height: 120px;
+}
+
+.card {
+  z-index: 1;
+}
+
+.container {
+  perspective: 800px;
+  position: relative;
+  background-color: blue;
+}
+
+.container:hover .cardflip {
+  transform: translateY(-208px);
+  background: lightblue;
+  visibility: visible;
+  position: fixed;
+}

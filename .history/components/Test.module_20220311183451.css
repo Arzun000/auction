@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border: 1px solid blue;
+  overflow: hidden;
+  padding-top: 2px;
+  display: inline-flex;
+}
+
+.card > div {
+  height: 100%;
+  width: 100%;
+}
+
+.foreground {
+  position: absolute;
+  padding-top: 30px;
+  margin-top: 30px;
+  background-color: blueviolet;
+  width: 250px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+
+  transition: 0.5s ease;
+}
+
+.card:hover .foreground {
+  transform: translateX(0);
+}
+
+.card2 {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border: 1px solid rgb(255, 0, 0);
+  overflow: hidden;
+  padding-top: 2px;
+  display: inline-flex;
+  margin-left: -120px;
+}

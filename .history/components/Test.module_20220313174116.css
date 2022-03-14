@@ -1,0 +1,54 @@
+.card {
+  position: relative;
+  display: block;
+  margin: 4px 15px 4px 2px;
+  text-align: center;
+  width: auto;
+}
+
+.cardflip {
+  position: absolute;
+  display: block;
+  margin-left: 20px;
+  visibility: hidden;
+  transition: transform 1s;
+  transform-origin: left;
+  z-index: 0;
+  width: auto;
+  height: 120px;
+}
+
+.card {
+  z-index: 1;
+}
+
+.container {
+  perspective: 800px;
+}
+
+.container:hover .cardflip {
+  transform: translateY(10px);
+  background: lightblue;
+  visibility: visible;
+}
+
+#content {
+  margin: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+.expandable {
+  background: #fff;
+  overflow: hidden;
+  color: #000;
+  line-height: 50px;
+
+  transition: all 0.5s ease-in-out;
+  height: 0;
+}
+
+.expandable:target {
+  height: 50px;
+}

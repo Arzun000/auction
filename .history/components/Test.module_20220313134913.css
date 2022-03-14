@@ -1,0 +1,19 @@
+.ul {
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  -webkit-transition: max-height 0.4s ease-in-out 0.4s;
+  -moz-transition: max-height 0.4s ease-in-out 0.4s;
+  -o-transition: max-height 0.4s ease-in-out 0.4s;
+  -ms-transition: max-height 0.4s ease-in-out 0.4s;
+  transition: max-height 0.4s ease-in-out 0.4s;
+}
+
+.li {
+  padding: 10px;
+}
+
+.ul:hover .ul {
+  max-height: 30em;
+}

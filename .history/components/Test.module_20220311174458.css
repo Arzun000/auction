@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+  overflow: hidden;
+  padding-top: 2px;
+}
+
+.card > div {
+  height: 100%;
+  width: 100%;
+}
+
+.card .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+
+  transition: 0.5s ease;
+}
+
+.card:hover .foreground {
+  transform: translateX(0);
+}
