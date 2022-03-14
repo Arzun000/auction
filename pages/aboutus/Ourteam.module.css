@@ -1,23 +1,18 @@
 .card {
-  position: absolute;
   display: block;
   margin: 4px 15px 4px 2px;
   text-align: center;
-  width: auto;
-  z-index: -1;
 }
 
 .cardflip {
-  position: absolute;
   display: block;
   margin-top: -50px;
-  margin-left: 20px;
+  margin-left: -30px;
   visibility: hidden;
   transition: transform 1s;
   transform-origin: left;
   z-index: 0;
-  width: auto;
-  height: 120px;
+  height: 5px;
 }
 
 .card {
@@ -25,13 +20,16 @@
 }
 
 .container {
-  perspective: 800px;
-  position: relative;
-  background-color: blue;
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  /* width: 120px; */
 }
 
 .container:hover .cardflip {
-  transform: translateY(-208px);
+  transform: translateY(-120px);
   background: lightblue;
   visibility: visible;
+  width: 120px;
 }
