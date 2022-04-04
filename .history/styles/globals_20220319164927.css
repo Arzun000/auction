@@ -1,0 +1,322 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: MontserratBold, -apple-system, BlinkMacSystemFont, Segoe UI,
+    MontserratBlack, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+
+  src: url(/fonts/static/Montserrat-Regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  font-style: normal;
+  src: url(/fonts/Montserrat-VariableFont_wght.ttf) format("woff2");
+}
+
+input[type="text"] {
+  border-radius: 42px;
+  border: none;
+}
+input[type="text"]:focus {
+  border-radius: 42px;
+}
+.canvas-text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  color: #242424;
+}
+.canvas-subtext {
+  font-family: "Alice", serif;
+  font-size: 30px;
+}
+
+.input-text[type="text"] {
+  border: 1px solid rgb(179, 171, 179);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  border-radius: 42px;
+  color: rgb(49, 10, 10);
+  height: 40px;
+}
+.input-text:focus {
+  outline: none !important;
+}
+/*******************************************************/
+/**************** Header links style********************/
+/*******************************************************/
+.navlink-cat {
+  font-size: 14px;
+  color: #787878;
+  font-weight: 700;
+  font-family: MontserratBold, sans-serif;
+}
+.navlinks {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-family: MontserratBold, sans-serif;
+}
+
+/*******************************************************/
+/**************all view... buttons on body**************/
+/*******************************************************/
+.viewButton {
+  padding: 8px 25px 8px 25px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: white;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: MontserratBold, sans-serif;
+}
+.viewButton:hover {
+  border-color: white;
+  color: #ea7f23;
+  background-color: white;
+  font-weight: 600;
+}
+
+.btn-yellowbg{
+  padding: 10px auto 10px auto;
+  py-2.5 px-5 mr-2 mb-2 w-full text-sm text-white rounded-full border-[2px] border-[#ea7f23] bg-[#ea7f23]
+           hover:bg-white hover:border-[#ea7f23] hover:text-[#ea7f23] font-bold focus:z-10 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600
+             dark:hover:text-white dark:hover:bg-gray-700
+}
+
+/*******************************************************/
+/**********hammer, heart and seach icon styles**********/
+/*******************************************************/
+
+.hammerbutton {
+  margin: auto;
+  padding: 6px;
+  background-color: #ea7f23;
+  border-radius: 42px;
+}
+.iconbutton {
+  margin-top: 10px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 42px;
+}
+.iconbutton:hover {
+  margin-top: 10px;
+  padding: 6px;
+  background-color: #ea7f23;
+
+  border-radius: 42px;
+}
+
+.cardtext {
+  font-size: 18px;
+  color: #484848;
+  line-height: 24px;
+  transition: ease-in-out;
+  font-family: MontserratBold, sans-serif;
+}
+.cardtext subtext {
+  font-size: 16px;
+  color: #484848;
+  line-height: 25px;
+  transition: ease-in-out;
+}
+
+.text-secttl {
+  font-size: 34px;
+  color: #212529;
+  line-height: 24px;
+  font-family: MontserratBold, sans-serif;
+  font-weight: 700;
+}
+
+.auctionItemTextMain {
+  font-size: 18px;
+  color: #484848;
+  line-height: 24px;
+  transition: ease-in-out;
+  font-family: MontserratBold, sans-serif;
+}
+.auctionItemTextSub {
+  font-size: 18px;
+  color: #484848;
+  line-height: 24px;
+  transition: ease-in-out;
+  font-family: MontserratBold, sans-serif;
+}
+/********************************************************************/
+/************styles for five items on auction lists******************/
+/********************************************************************/
+.auctionItemMajor {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  width: 100%;
+}
+.image-caption-major .image-caption-one {
+  font-size: 27px;
+  color: #ffffff;
+  line-height: 24px;
+  padding-top: 5px;
+  font-family: MontserratBold, sans-serif;
+  font-weight: 600;
+}
+.image-caption-major .image-caption-two {
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 24px;
+  font-family: MontserratBold, sans-serif;
+}
+
+.image-caption-minor {
+  font-size: 18px;
+  color: #250808;
+  line-height: 24px;
+  padding-top: 5px;
+  font-family: MontserratBold, sans-serif;
+}
+.image-caption-minor subtext {
+  font-size: 16px;
+  color: #484848;
+  line-height: 24px;
+  padding-top: 5px;
+  font-family: MontserratBold, sans-serif;
+}
+
+/**************************************************************/
+/*****************styles for news section**********************/
+/**************************************************************/
+.news-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #250808;
+  padding-left: 20px;
+  line-height: 24px;
+  font-family: MontserratBold, sans-serif;
+}
+.news-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #250808;
+  padding-left: 20px;
+  line-height: 24px;
+  font-family: MontserratBold, sans-serif;
+}
+
+/**************************************************************/
+/**************** styles for footer items/*********************/
+/**************************************************************/
+.footertxt {
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: 600;
+  font-family: MontserratBold, sans-serif;
+}
+.footer-contact {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  color: #484848;
+}
+.footer-link-title {
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #250808;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 5px;
+  font-family: MontserratBold, sans-serif;
+}
+.footer-links {
+  font-size: 14px;
+  color: #857474;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 15px;
+  font-family: MontserratBold, sans-serif;
+}
+.socials .iconbutton {
+  margin-top: 10px;
+  padding: 6px;
+  background-color: white;
+  border-radius: 42px;
+}
+
+/****************************************************************************/
+/****************************************************************************/
+/***************************Shop page styles*********************************/
+/****************************************************************************/
+
+.shop-text {
+  font-size: 15px;
+  color: #726f6f;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 25px;
+  font-family: MontserratBold, sans-serif;
+}
+.shop-text-main {
+  font-size: 35px;
+  color: #000000;
+  line-height: 24px;
+  padding-top: 25px;
+  margin-left: 10px;
+  font-family: MontserratBold, sans-serif;
+  font-weight: 600;
+}
+
+/******************two colored underline*************************************/
+.line {
+  background: gray;
+  position: relative;
+  height: 2px;
+}
+.line:before {
+  content: "";
+  background: #ea7f23;
+  width: 25%;
+  height: 2px;
+  position: absolute;
+}
+
+/****************************************************************************/
+/*************************Left nav bar styles********************************/
+/****************************************************************************/
+
+.left-nav-title {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+  margin-top: 10px;
+  padding-top: 5px;
+  font-weight: 700;
+}
+.left-nav-text {
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 12px;
+  padding-top: 5px;
+  font-weight: 700;
+}

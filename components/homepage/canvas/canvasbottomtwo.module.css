@@ -1,0 +1,81 @@
+.auctionItem2 {
+  background: url(/images/vespa/vespa01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem2:hover {
+  background: url(/images/vespa/vespa02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.auctionItem3 {
+  background: url(/images/vespa/vespa04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem3:hover {
+  background: url(/images/vespa/vespa06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem4 {
+  background: url(/images/vespa/vespa08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem4:hover {
+  background: url(/images/vespa/vespa05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem5 {
+  background: url(/images/vespa/vespa03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem5:hover {
+  background: url(/images/vespa/vespa01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}

@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  display: block;
+  margin: 4px 15px 4px 2px;
+  text-align: center;
+  font-size: 14px;
+  font: white;
+  width: auto;
+}
+
+.cardflip {
+  position: absolute;
+  background-color: blue;
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+  visibility: hidden;
+  transition: transform 0.35s;
+  transform-origin: left;
+  z-index: 0;
+  width: auto;
+  height: 120px;
+}
+
+.card {
+  z-index: 0;
+  background-color: bisque;
+  height: 30px;
+  padding: 4px;
+}
+
+.container {
+  perspective: 800px;
+  color: white;
+  padding: 5px 5px 5px 10px;
+  background-color: aqua;
+}
+
+.container:hover .cardflip {
+  transform: translateY(-42px);
+  height: auto;
+  visibility: visible;
+  z-index: 10;
+}

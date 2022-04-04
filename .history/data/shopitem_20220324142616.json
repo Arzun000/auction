@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "White Car",
+    "imgUrl": "/images/car1.jpg",
+    "currentBid": "$6000",
+    "websiteUrl": "#",
+    "seller": "Davy Jones",
+    "address": "at King and Spadina"
+  },
+  {
+    "id": 2,
+    "name": "Black car",
+    "imgUrl": "/images/car2.jpg",
+    "currentBid": "$15000",
+    "websiteUrl": "#",
+    "seller": "Jack Sparrow",
+    "address": "Richmond and Spadina"
+  },
+  {
+    "id": 3,
+    "name": "Red Car",
+    "imgUrl": "/images/car3.jpg",
+    "currentBid": "$4500",
+    "websiteUrl": "#",
+    "seller": "Hector Barbossa",
+    "address": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 4,
+    "name": "Blue Car",
+    "imgUrl": "/images/car4.jpg",
+    "currentBid": "$5500",
+    "websiteUrl": "#",
+    "seller": "Will Turner",
+    "address": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 5,
+    "name": "Volkswagan",
+    "imgUrl": "/images/car5.jpeg",
+    "currentBid": "$10500",
+    "websiteUrl": "#",
+    "seller": "Lady Annabelle",
+    "address": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 6,
+    "name": "Green Vintage Car",
+    "imgUrl": "/images/car6.jpg",
+    "currentBid": "$4500",
+    "websiteUrl": "#",
+    "seller": "Elizabeth Swann",
+    "address": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 7,
+    "name": "Red Ferrari",
+    "imgUrl": "/images/car7.jpg",
+    "currentBid": "$15000",
+    "websiteUrl": "#",
+    "seller": "Bootstrap Bill",
+    "address": "Route 300 Neighbourhood"
+  }
+]

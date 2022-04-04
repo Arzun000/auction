@@ -1,0 +1,14 @@
+.articleimgholder {
+  width: 380px;
+  height: 300px;
+  /* background: url(/images/car6.jpg); */
+  /* background-position: center; */
+  background-color: aquamarine;
+
+  background-repeat: no-repeat;
+  transition: all 1s;
+}
+
+.articleimgholder:hover {
+  transform: scale(1.2);
+}

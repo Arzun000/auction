@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, MontserratBold, -apple-system, BlinkMacSystemFont,
+    Segoe UI, MontserratBlack, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: optional;
+  src: url(/fonts/static/Montserrat-Regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: url(/fonts/Montserrat-VariableFont_wght.ttf) format("woff2");
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 5px;
+}
+.canvas-text {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  color: #242424;
+}
+.canvas-subtext {
+  font-family: "Alice", serif;
+
+  font-size: 30px;
+}
+
+.input-text[type="text"] {
+  border: none;
+  background-color: white;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  border-radius: 0px;
+  color: gray;
+  height: 40px;
+}
+.input-text[type="text"]:focus {
+  border: none;
+}
+.input-text1 {
+  border: none!;
+}

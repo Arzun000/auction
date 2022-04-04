@@ -1,0 +1,35 @@
+.card {
+  display: block;
+  margin: 4px 15px 4px 2px;
+  text-align: center;
+}
+
+.cardflip {
+  display: block;
+  margin-top: -50px;
+  margin-left: -30px;
+  visibility: hidden;
+  transition: transform 1s;
+  transform-origin: left;
+  z-index: 0;
+  height: 5px;
+}
+
+.card {
+  z-index: 1;
+}
+
+.container {
+  margin-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  /* width: 120px; */
+}
+
+.container:hover .cardflip {
+  transform: translateY(-120px);
+  background: lightblue;
+  visibility: visible;
+  width: 120px;
+}

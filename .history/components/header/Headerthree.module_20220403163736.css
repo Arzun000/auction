@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  display: block;
+  margin: 4px 15px 4px 2px;
+  text-align: center;
+  font-size: 14px;
+  font: white;
+  width: auto;
+  z-index: 0;
+  height: 30px;
+  padding: 4px 10px;
+}
+
+.cardflip {
+  position: absolute;
+  background-color: blue;
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+  visibility: hidden;
+  transition: transform 0.35s;
+  transform-origin: left;
+  z-index: 0;
+  width: auto;
+  height: 120px;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: red;
+  left: 50%;
+  bottom: -10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.container {
+  perspective: 800px;
+  color: white;
+  padding-top: 5px auto 5px;
+}
+
+.container:hover .cardflip {
+  transform: translateY(-42px);
+  height: auto;
+  visibility: visible;
+  z-index: 10;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.container:hover .title::after {
+  width: 100%;
+  left: 0;
+}

@@ -1,0 +1,81 @@
+.auctionItem2 {
+  background: url(/images/old/oldcar02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem2:hover {
+  background: url(/images/old/oldcar07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.auctionItem3 {
+  background: url(/images/old/oldcar03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem3:hover {
+  background: url(/images/old/oldcar04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem4 {
+  background: url(/images/old/oldcar10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem4:hover {
+  background: url(/images/old/oldcar11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem5 {
+  background: url(/images/old/oldcar05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItem5:hover {
+  background: url(/images/old/oldcar09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}

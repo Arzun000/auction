@@ -1,0 +1,92 @@
+.svgwrapper {
+  position: relative;
+  top: 50%;
+
+  margin: -180px auto auto 0px;
+  width: 680px;
+  height: 360px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 0px;
+  fill: transparent;
+  stroke: #f50756;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.svgwrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 600;
+  /* animation: dash 5s linear backwards; */
+}
+
+.circle-border {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  padding: 30px;
+  background-color: black;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+
+  /* // Using inset box-shadow instead of border for sizing simplicity */
+  border-radius: 100%;
+  font-size: inherit;
+  font-weight: 700;
+
+  /* // Required, since we're setting absolute on pseudo-elements */
+  position: relative;
+  vertical-align: middle;
+}
+.circle ::before,
+::after {
+  box-sizing: inherit;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  border: 2px solid transparent;
+}
+
+.circle :hover {
+  color: yellow;
+}
+
+.circle:hover::before {
+  border-top-color: yellow;
+  border-right-color: yellow;
+  border-bottom-color: yellow;
+
+  transition: border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+
+.circle::after {
+  border: 0 solid transparent;
+}
+
+.circle :hover::after {
+  border-top: 2px solid yellow;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  transform: rotate(270deg);
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+}

@@ -1,0 +1,20 @@
+.auctionItemsMinor {
+  background: url(/images/car2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}
+.auctionItemsMinor:hover {
+  background: url(/images/car1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 40%;
+}

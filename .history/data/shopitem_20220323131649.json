@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "name": "White Car",
+    "imgUrl": "/images/car2.jpg",
+    "CurrentBid": "$10000",
+    "websiteUrl": "https://www.strangelovecoffee.ca/",
+    "address": "983 Queen St E, Toronto, ON M4M 1K2",
+    "neighbourhood": "at King and Spadina"
+  },
+  {
+    "id": 1,
+    "name": "Black car",
+    "imgUrl": "/images/car3.jpg",
+    "CurrentBid": "$15000",
+    "websiteUrl": "https://www.darkhorseespresso.com/",
+    "address": "401 Richmond St W",
+    "neighbourhood": "Richmond and Spadina"
+  },
+  {
+    "id": 300,
+    "name": "Blue Car",
+    "imgUrl": "/images/car4.jpg",
+    "CurrentBid": "$7000",
+    "websiteUrl": "https://www.darkhorseespresso.com/",
+    "address": "302 Manchester Ave",
+    "neighbourhood": "Route 300 Neighbourhood"
+  }
+]

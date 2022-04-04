@@ -1,0 +1,24 @@
+.svgwrapper {
+  position: relative;
+  top: 50%;
+  padding: 20px;
+  margin: auto;
+  width: 600px;
+  height: 280px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 0px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.svgwrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 600;
+  /* animation: dash 5s linear backwards; */
+}
