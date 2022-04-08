@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "White Car",
+    "imgUrl": "/images/car1.jpg",
+    "currentBid": "$6000",
+    "deadline": "05/05/2022 16:42:15",
+    "websiteUrl": "#",
+    "seller": "Davy Jones",
+    "address": "at King and Spadina"
+  },
+  {
+    "id": 2,
+    "name": "Black car",
+    "imgUrl": "/images/car2.jpg",
+    "currentBid": "$15000",
+    "deadline": "04/04/2022 16:42:15",
+    "websiteUrl": "#",
+    "seller": "Jack Sparrow",
+    "address": "Richmond and Spadina"
+  },
+  {
+    "id": 3,
+    "name": "Red Car",
+    "imgUrl": "/images/car3.jpg",
+    "currentBid": "$4500",
+    "deadline": "03/02/2022 16:42:15",
+    "websiteUrl": "#",
+    "seller": "Hector Barbossa",
+    "address": "Route 300 Neighbourhood"
+  },
+  {
+    "id": 4,
+    "name": "Blue Car",
+    "imgUrl": "/images/car4.jpg",
+    "currentBid": "$5500",
+    "deadline": "27/05/2022 16:42:15",
+    "websiteUrl": "#",
+    "seller": "Will Turner",
+    "address": "Route 300 Neighbourhood"
+  }
+]
