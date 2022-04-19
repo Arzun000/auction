@@ -1,0 +1,154 @@
+.card {
+  position: relative;
+  display: block;
+  margin: 4px 10px 4px 2px;
+  text-align: center;
+  font-size: 14px;
+  font: white;
+  font-weight: 500;
+  width: auto;
+  z-index: 0;
+  height: 30px;
+  padding: 4px 10px;
+}
+
+.cardflip {
+  position: absolute;
+  display: block;
+  margin-top: 50px;
+  margin-left: 10px;
+  visibility: hidden;
+  transition: transform 0.35s;
+  transform-origin: left;
+  z-index: 100;
+  width: auto;
+  height: 120px;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: red;
+  left: 50%;
+  bottom: -10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.container {
+  perspective: 800px;
+  color: white;
+  padding-top: 5px auto 5px;
+}
+
+.container:hover .cardflip {
+  transform: translateY(-42px);
+  height: auto;
+  visibility: visible;
+  z-index: 100;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  bottom: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.container:hover .title::after {
+  width: 100%;
+  left: 0;
+}
+/******************************************************************************/
+
+.name {
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  margin: 20px auto;
+  text-align: center;
+  height: 60px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  background: #fff000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  animation-name: fadeFromtop;
+  -webkit-animation-name: fadeFromtop;
+  animation-duration: 800ms;
+  -webkit-animation-duration: 800ms;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.hover a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.name:hover .hover {
+  animation-name: fadeFromBottom;
+  -webkit-animation-name: fadeFromBottom;
+  animation-duration: 800ms;
+  -webkit-animation-duration: 800ms;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadeFromBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    display: block;
+  }
+}
+@keyframes fadeFromtop {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(400%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
